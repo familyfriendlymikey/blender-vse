@@ -87,6 +87,8 @@ Install [VSE Transform Tools](https://github.com/doakey3/VSE_Transform_Tools/rel
 - You can really animate any value.
 - It's easiest to animate with the auto keyframe option enabled.
 - Graph editor.
+- Default is bezier, `t` to change selected.
+- In graph editor, `v` to change handle type.
 
 ## Scenes
 - Full copy scene.
