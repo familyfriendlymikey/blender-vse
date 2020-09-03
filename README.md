@@ -1,30 +1,5 @@
 # Blender VSE
 
-`Animation > Change Frame` -> `Right Click`
-Shift to multiselect
-copy and paste with ctrl c and ctrl v, paste will paste at playhead, ctrl x to cut
-`e` with the playhead on the strip on a side of the playhead to grab strip side, alt + click to ripple edit
-"Go To Current Frame"
-"Jump To Strip"
-adding text, speed control, gaussian blur, 
-f9 to change props of thing you just did i think
-f to fade strip in and out, ctrl f to fade in only, alt f to fade out only
-reverse strips
-shift backspace remove all gaps
-ctrl left mouse to select evcerying on side of playhead
-alt right and left to swap ACTIVE strip
-numpad . to view selection (emulate numpad option)
-home to zoom to render range + strip range
-toggle waveforms alt w
-PS mouse trim shift t
-crossfade ctrl alt c SELECT ONCE, ctrl alt f to delete
-set selected strip proxy
-ctrl g make meta strip, ctrl shift remove it, tab to enter and exit
-ctrl key snap depends on which side of the selection your mouse is on
-alt k control k to trim ewither sidfe
-shift alt g, shift to do ANYTHING slowly
-searching keymap for both input and name
-
 ## Why Use Blender VSE For Video Editing?
 - Intuitive & very fast workflow (with some plugins).
 - Interface is very customizable.
@@ -120,7 +95,37 @@ Install [VSE Transform Tools](https://github.com/doakey3/VSE_Transform_Tools/rel
 - Copying between scenes.
 - Appending scenes from other file.
 
+## Other Strip Types and Options
+- adding text
+- speed control
+- gaussian blur
+- color strip
+- transitions
+- reverse strips
+- ctrl g make meta strip, ctrl shift remove it, tab to enter and exit
+- set selected strip proxy
+
 ## More Hotkeys
+
+### Selection
+copy and paste with ctrl c and ctrl v, paste will paste at playhead, ctrl x to cut
+Shift to multiselect
+ctrl left mouse to select evcerying on side of playhead
+
+### Navigation
+numpad . to view selection (emulate numpad option)
+home to zoom to render range + strip range
+
+### Modification
+alt k control k to trim ewither sidfe, + shift will ripple
+alt right and left to swap ACTIVE strip
+
+shift alt g, shift to do ANYTHING slowly
+ctrl key snap depends on which side of the selection your mouse is on
+
+toggle waveforms alt w
+`Ctrl + Click` Selects related strips
+- "Trim" shift t
 - Press `x` or `y` to move something on a specific axis.
 - Transform by typed amount.
 - `a` to select all strips.
@@ -132,10 +137,11 @@ Install [VSE Transform Tools](https://github.com/doakey3/VSE_Transform_Tools/rel
 - `Shift + Alt + g` to select handles of cut.
 - `Shift + x` to delete selection and move stuff over.
 - `Ctrl + z` to undo, `Ctrl + Shift z` to redo.
+`e` with the playhead on the strip on a side of the playhead to grab strip side, alt + click to ripple edit
 - `n` to pop up right side menu menu. `p` to bring up left side menu.
 - `x` to interactive cut.
-- `Backspace` to remove gaps natively.
 - `c` to concatenate selected strips to the left.
+- `Shift c` concat all in channel.
 - `Shift + c` to concatenate all strips in channel to the left.
 - `Shift + S` to bring SELECTION to cursor.
 - `Ctrl` while moving a strip to snap.
@@ -145,7 +151,12 @@ Install [VSE Transform Tools](https://github.com/doakey3/VSE_Transform_Tools/rel
 - `Right Click` an option with many strips selected > `apply to selected` to apply that value to all selected strips.
 - `Up/Down arrow` will move to nearest keyframes.
 - `Home` key will zoom your project to fit the view.
+- f to fade strip in and out, ctrl f to fade in only, alt f to fade out only, ctrl alt f to remove fade
+
 - `Something` will crossfade the selected strips. Make sure you don't include audio.
+- `Backspace` to remove gap natively, `Shift Backspace` to remove all gaps natively.
+- f9 to change props of thing you just did.
+- crossfade ctrl alt c SELECT ONCE, ctrl alt f to delete
 
 ## Misc
 - Meta strips give some unique transform workflows.
@@ -158,6 +169,13 @@ Install [VSE Transform Tools](https://github.com/doakey3/VSE_Transform_Tools/rel
 - Installing and running BPSProxy.
 
 ## My Current Hotkey Settings
+In order to remap something in blender, you have to delete all conflicts.
+
+Searching keymap for both input and name.
+
+- `Animation > Change Frame` -> `Right Click`
+- "Go To Current Frame"
+- "Jump To Strip"
 - Frame by frame movement with `z` and `x`.
 - `Right click` to move playhead around on timeline.
 - `Alt + Mouse Button 4` to soft cut under cursor.
