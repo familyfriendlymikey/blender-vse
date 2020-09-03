@@ -6,7 +6,7 @@
 - Can remap any hotkey, using both keyboard and mouse buttons.
 - Blender's keyframing and graph editor.
 - Frame accurate.
-- Open source.
+- Open source and free.
 - Fast to open.
 - Cross platform.
 - Extensible.
