@@ -1,5 +1,30 @@
 # Blender VSE
 
+`Animation > Change Frame` -> `Right Click`
+Shift to multiselect
+copy and paste with ctrl c and ctrl v, paste will paste at playhead, ctrl x to cut
+`e` with the playhead on the strip on a side of the playhead to grab strip side, alt + click to ripple edit
+"Go To Current Frame"
+"Jump To Strip"
+adding text, speed control, gaussian blur, 
+f9 to change props of thing you just did i think
+f to fade strip in and out, ctrl f to fade in only, alt f to fade out only
+reverse strips
+shift backspace remove all gaps
+ctrl left mouse to select evcerying on side of playhead
+alt right and left to swap ACTIVE strip
+numpad . to view selection (emulate numpad option)
+home to zoom to render range + strip range
+toggle waveforms alt w
+PS mouse trim shift t
+crossfade ctrl alt c SELECT ONCE, ctrl alt f to delete
+set selected strip proxy
+ctrl g make meta strip, ctrl shift remove it, tab to enter and exit
+ctrl key snap depends on which side of the selection your mouse is on
+alt k control k to trim ewither sidfe
+shift alt g, shift to do ANYTHING slowly
+searching keymap for both input and name
+
 ## Why Use Blender VSE For Video Editing?
 - Intuitive & very fast workflow (with some plugins).
 - Interface is very customizable.
@@ -143,6 +168,8 @@ Install [VSE Transform Tools](https://github.com/doakey3/VSE_Transform_Tools/rel
 - I set undo tree to really far.
 - `Shift z` to interactive cut.
 - `Middle Mouse 4/5` move to beginning and end of strip.
+
+## Color Grading
 
 ## Masking
 - Strip mask.
