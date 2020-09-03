@@ -17,7 +17,7 @@
 - Small community compared to Adobe products.
 	- Not many good tutorials (yet).
 	- Not many transitions or preset effects or templates.
-- Some quirky things that don't make sense (like images loading in at the canvas resolution).
+- A little buggy sometimes.
 - Not for everyone but if you like the workflow, it's great.
 
 ## Downloading 2.83.5 LTS
