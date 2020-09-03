@@ -137,6 +137,7 @@ Install [VSE Transform Tools](https://github.com/doakey3/VSE_Transform_Tools/rel
 - I have renders set to go to the image editor instead of a separate window.
 - I set undo tree to really far.
 - `Shift z` to interactive cut.
+- `Middle Mouse 4/5` move to beginning and end of strip.
 
 ## Masking
 - Strip mask.
