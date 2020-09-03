@@ -122,6 +122,7 @@ Install [VSE Transform Tools](https://github.com/doakey3/VSE_Transform_Tools/rel
 - You can do math in input boxes.
 - You can copy and paste an input box without clicking.
 - Color management panel supports sRGB and raw.
+- Speed up footage, gaussian blur.
 
 ## BPSProxy
 - Installing and running BPSProxy.
