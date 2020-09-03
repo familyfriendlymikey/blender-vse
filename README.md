@@ -39,7 +39,7 @@ For example, `a` to select all works in the timeline, in the keyframe view, in t
 ## Generating Proxy
 - Disable cache.
 - Generate the proxy.
-- Select all your strips and press "Set Selected Strip Proxy".
+- Select all your strips and press "Set Selected Strip Proxy". This will do so for all selected strips.
 - Enable the proxy in the viewport (press `n` if the panel isn't there).
 - Safe areas.
 
@@ -103,60 +103,49 @@ Install [VSE Transform Tools](https://github.com/doakey3/VSE_Transform_Tools/rel
 - transitions
 - reverse strips
 - ctrl g make meta strip, ctrl shift remove it, tab to enter and exit
-- set selected strip proxy
+- `Right Click` an option with many strips selected > `apply to selected` to apply that value to all selected strips.
 
 ## More Hotkeys
 
 ### Selection
+- `a` to select all strips.
+- `Alt + a` to deselect all strips.
 copy and paste with ctrl c and ctrl v, paste will paste at playhead, ctrl x to cut
 Shift to multiselect
 ctrl left mouse to select evcerying on side of playhead
+`Ctrl + Click` Selects related strips
+- `Shift + Alt + g` to select handles of cut.
+- `l` to select group of touching strips.
+
+### Moving
+shift to do ANYTHING slowly
+ctrl key snap depends on which side of the selection your mouse is on
+alt right and left to swap ACTIVE strip
+- Press `x` or `y` to move something on a specific axis.
+- Transform by typed amount.
+- `e` with the playhead on the strip on a side of the playhead to grab strip side, alt + click to ripple edit
+- `c` to concatenate selected strips to the left.
+- `Shift + c` to concatenate all strips in channel to the left.
+- `Shift + S` to bring SELECTION to cursor.
+- `d` to duplicate strips.
 
 ### Navigation
 numpad . to view selection (emulate numpad option)
 home to zoom to render range + strip range
-
-### Modification
-alt k control k to trim ewither sidfe, + shift will ripple
-alt right and left to swap ACTIVE strip
-
-shift alt g, shift to do ANYTHING slowly
-ctrl key snap depends on which side of the selection your mouse is on
-
-toggle waveforms alt w
-`Ctrl + Click` Selects related strips
-- "Trim" shift t
-- Press `x` or `y` to move something on a specific axis.
-- Transform by typed amount.
-- `a` to select all strips.
-- `Alt + a` to deselect all strips.
-- `l` to select group of touching strips.
-- `.` key to zoom to selection.
-- `b` to box select.
-- `k` to cut with knife.
-- `Shift + Alt + g` to select handles of cut.
-- `Shift + x` to delete selection and move stuff over.
 - `Ctrl + z` to undo, `Ctrl + Shift z` to redo.
-`e` with the playhead on the strip on a side of the playhead to grab strip side, alt + click to ripple edit
-- `n` to pop up right side menu menu. `p` to bring up left side menu.
-- `x` to interactive cut.
-- `c` to concatenate selected strips to the left.
-- `Shift c` concat all in channel.
-- `Shift + c` to concatenate all strips in channel to the left.
-- `Shift + S` to bring SELECTION to cursor.
-- `Ctrl` while moving a strip to snap.
-- Hold `Shift` during a transform to be precise.
-- `d` to duplicate strips.
-- `Ctrl + Alt + p` to set render region to selection.
-- `Right Click` an option with many strips selected > `apply to selected` to apply that value to all selected strips.
-- `Up/Down arrow` will move to nearest keyframes.
-- `Home` key will zoom your project to fit the view.
+- `Up/Down arrow` will move playhead to nearest keyframes.
+
+### Cutting, Trimming, Editing
+alt k control k to trim either side, + shift will ripple
+- `k` to cut with knife.
+- "Trim" shift t
+- `Shift + x` to CUT selection and ripple.
 - f to fade strip in and out, ctrl f to fade in only, alt f to fade out only, ctrl alt f to remove fade
 
-- `Something` will crossfade the selected strips. Make sure you don't include audio.
-- `Backspace` to remove gap natively, `Shift Backspace` to remove all gaps natively.
-- f9 to change props of thing you just did.
-- crossfade ctrl alt c SELECT ONCE, ctrl alt f to delete
+### View 
+- `n` to pop up right side menu menu. `t` to bring up tools menu.
+- toggle waveforms alt w
+- `Ctrl + Alt + p` to set render region to selection.
 
 ## Misc
 - Meta strips give some unique transform workflows.
@@ -194,3 +183,9 @@ Searching keymap for both input and name.
 - Guassian blur, must use transform strip.
 - Its just a preview.
 - feather, switch.
+
+### Other Hotkeys
+- `Something` will crossfade the selected strips. Make sure you don't include audio.
+- `Backspace` to remove gap natively, `Shift Backspace` to remove all gaps natively.
+- f9 to change props of thing you just did.
+- crossfade ctrl alt c SELECT ONCE, ctrl alt f to delete
