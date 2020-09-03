@@ -102,7 +102,7 @@ Install [VSE Transform Tools](https://github.com/doakey3/VSE_Transform_Tools/rel
 - color strip
 - transitions
 - reverse strips
-- ctrl g make meta strip, ctrl shift remove it, tab to enter and exit
+- ctrl g make meta strip, ctrl alt g remove it, tab to enter and exit
 - `Right Click` an option with many strips selected > `apply to selected` to apply that value to all selected strips.
 
 ## More Hotkeys
@@ -152,7 +152,6 @@ alt k control k to trim either side, + shift will ripple
 - You can do math in input boxes.
 - You can copy and paste an input box without clicking.
 - Color management panel supports sRGB and raw.
-- Speed up footage, gaussian blur.
 
 ## BPSProxy
 - Installing and running BPSProxy.
