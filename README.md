@@ -118,6 +118,9 @@ Install [VSE Transform Tools](https://github.com/doakey3/VSE_Transform_Tools/rel
 - `d` to duplicate strips.
 - `Ctrl + Alt + p` to set render region to selection.
 - `Right Click` an option with many strips selected > `apply to selected` to apply that value to all selected strips.
+- `Up/Down arrow` will move to nearest keyframes.
+- `Home` key will zoom your project to fit the view.
+- `Something` will crossfade the selected strips. Make sure you don't include audio.
 
 ## Misc
 - Meta strips give some unique transform workflows.
