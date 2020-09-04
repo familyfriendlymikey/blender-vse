@@ -21,8 +21,8 @@
 - Not for everyone but if you like the workflow, it's great.
 
 ## Downloading Blender
-Download latest release [here](https://www.blender.org/download/).
-Download LTS [here](https://www.blender.org/download/lts/).
+- Download latest release [here](https://www.blender.org/download/).
+- Download LTS [here](https://www.blender.org/download/lts/).
 
 ## Note
 A lot of blender's hotkeys work in any portion of the program.
