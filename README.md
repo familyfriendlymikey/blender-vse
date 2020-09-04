@@ -46,7 +46,7 @@ For example, `a` to select all works in the timeline, in the keyframe view, in t
 ## Moving Shit Around
 - Press `g` to move something.
 - Cancel any action with right click.
-- `Alt + click` video or audio to mute, or select strips and press `H`.
+- `H` to mute strips.
 
 ## Splitting A Strip
 - Hold offset: extending last frame, reversing clips and such.
@@ -79,7 +79,7 @@ Install [VSE Transform Tools](https://github.com/doakey3/VSE_Transform_Tools/rel
 ## Using VSE Transform Tools
 - `g`, `s`, and `r` to move, scale, and rotate selected elements.
 - `Alt + r/s/v` to reset.
-- `c` to crop a clip, `Shift + C` to make canvas same size as crop.
+- `c` to crop a clip, c to confirm, `Shift + C` to make canvas same size as crop.
 - Changing pivot point with `Ctrl + click`.
 - Right click to cancel ANY action.
 
