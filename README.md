@@ -161,25 +161,21 @@ In order to remap something in blender, you have to delete all conflicts.
 
 Searching keymap for both input and name.
 
-- `Animation > Change Frame: Sequencer Tool: Select` -> `Right Click`
+- `Animation > Change Frame: Sequencer Tool: Select Box` -> `Right Click`
 - `Sequencer: Mouse Trim > T`, Time Cursor, Remove Gaps.
 	- Uncheck `SequencerCommon > Context Toggle`
 - `Sequencer: Split Strips Under Cursor: Mouse Button 5`
 - `Sequencer: Trim Left Or Right Handles: Mouse Button 4` Left, Ripple.
-- `Frames: Frame Offset > x, x`
+- `Frames: Frame Offset > z, x`
+- `Sequencer: Channel Offset > w, s`
+	- Uncheck `SequencerCommon: Set Tool By Name`
+- `Sequencer: Frame Selected > tilde`
 
 - "Go To Current Frame"
 - "Jump To Strip"
-- Frame by frame movement with `z` and `x`.
-- `Right click` to move playhead around on timeline.
-- `Alt + Mouse Button 4` to soft cut under cursor.
-- `Alt + Mouse Button 5` to hold cut selected strips.
-- `w` and `s` to move clip up or down.
 - Playhead limited to frame range.
 - I have renders set to go to the image editor instead of a separate window.
 - I set undo tree to really far.
-- `Shift z` to interactive cut.
-- `Middle Mouse 4/5` move to beginning and end of strip.
 
 ## Color Grading
 
