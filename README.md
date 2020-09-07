@@ -172,6 +172,11 @@ Searching keymap for both input and name.
 	- Uncheck `SequencerCommon: Set Tool By Name`
 - `Sequencer: Frame Selected > tilde`
 
+## Preferences
+
+## Other Settings
+- `Bottom Left Timeline Menu, Playback > AV Sync, Limit Playback to Frame Range`
+
 - "Go To Current Frame"
 - "Jump To Strip"
 - Playhead limited to frame range.
