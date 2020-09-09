@@ -128,6 +128,7 @@ alt right and left to swap ACTIVE strip
 - `c` to concatenate selected strips to the left.
 - `Shift + c` to concatenate all strips in channel to the left.
 - `Shift + S` to bring SELECTION to cursor.
+- `Shift + S` will bring all clips to the cursor, lined up vertically. You can use this to sync cuts to music by selecting many cuts at once, bring them to your cursor, use `Ctrl + Middle Mouse Click Drag Vertically` to compress the view vertically, and see which strips fit the timing well.
 - `d` to duplicate strips.
 
 ### Navigation
@@ -137,6 +138,7 @@ home to zoom to render range + strip range
 - `Up/Down arrow` will move playhead to nearest keyframes.
 
 ### Cutting, Trimming, Editing
+lock a strip with shift + l to make it not be cut as a side effect of some other edit
 alt k control k to trim either side, + shift will ripple
 - `k` to cut with knife.
 - "Trim" shift t
