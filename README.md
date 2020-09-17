@@ -164,7 +164,7 @@ In order to remap something in blender, you have to delete all conflicts.
 
 Searching keymap for both input and name.
 
-- `Animation > Change Frame: Sequencer Tool: Select Box` -> `Right Click`
+- `Animation > Change Frame: Sequencer Tool: Select` -> `Right Click`
 - `Sequencer: Mouse Trim > T`, Time Cursor, Remove Gaps.
 	- Uncheck `SequencerCommon > Context Toggle`
 - `Sequencer: Split Strips Under Cursor: Mouse Button 5`
